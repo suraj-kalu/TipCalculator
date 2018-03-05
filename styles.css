@@ -1,0 +1,54 @@
+body{
+    background: url('download.jpg') center  center no-repeat ;
+
+    height: 100%;
+}
+
+#container{
+    text-align: center;
+    width: 500px;
+    margin:50px auto 0;
+    border: solid 1px #ccc;
+}
+
+label{
+    display: block;
+    margin: 10px;
+    font-size: 25px;
+}
+
+input[type='text']
+{
+    width: 100px;
+    height: 30px;
+}
+
+select{
+    height: 30px;
+}
+
+#calculate{
+    margin-top: 10px;
+    height: 35px;
+    background: #c3c3c3;
+}
+
+#calculate:hover{
+    position: relative;
+    top: 1px;
+}
+
+#totalTip{
+    margin: 10px;
+    font-size: 30px;
+    
+}
+
+sup{
+    font-size: 35px;
+}
+
+#totalTip:before{
+    display: block;
+    content:'The tip is: '
+}
